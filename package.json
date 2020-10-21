@@ -2,5 +2,8 @@
   "devDependencies": {
     "esdoc": "^1.1.0",
     "esdoc-standard-plugin": "^1.0.0"
+  },
+  "dependencies": {
+    "esdoc-jsx-plugin": "^1.0.0"
   }
 }

@@ -1,5 +1,23 @@
 window.esdocSearchIndex = [
   [
+    "./src/einkaufskorb.js~shoppingcart",
+    "class/src/Einkaufskorb.js~ShoppingCart.html",
+    "<span>ShoppingCart</span> <span class=\"search-result-import-path\">./src/Einkaufskorb.js</span>",
+    "class"
+  ],
+  [
+    "./src/globalefunktionen.js~testfunktionen",
+    "class/src/GlobaleFunktionen.js~TestFunktionen.html",
+    "<span>TestFunktionen</span> <span class=\"search-result-import-path\">./src/GlobaleFunktionen.js</span>",
+    "class"
+  ],
+  [
+    "./src/topartikel.js~topartikel",
+    "class/src/Topartikel.js~Topartikel.html",
+    "<span>Topartikel</span> <span class=\"search-result-import-path\">./src/Topartikel.js</span>",
+    "class"
+  ],
+  [
     "src/.external-ecmascript.js~array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
     "src/.external-ecmascript.js~Array",
@@ -280,5 +298,59 @@ window.esdocSearchIndex = [
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
     "src/.external-ecmascript.js~undefined",
     "external"
+  ],
+  [
+    "src/einkaufskorb.js",
+    "file/src/Einkaufskorb.js.html",
+    "src/Einkaufskorb.js",
+    "file"
+  ],
+  [
+    "src/einkaufskorb.js~shoppingcart#stringtonumberconverter",
+    "class/src/Einkaufskorb.js~ShoppingCart.html#instance-method-stringToNumberConverter",
+    "src/Einkaufskorb.js~ShoppingCart#stringToNumberConverter",
+    "method"
+  ],
+  [
+    "src/einkaufskorb.js~shoppingcart#totaldiscounts",
+    "class/src/Einkaufskorb.js~ShoppingCart.html#instance-method-totalDiscounts",
+    "src/Einkaufskorb.js~ShoppingCart#totalDiscounts",
+    "method"
+  ],
+  [
+    "src/globalefunktionen.js",
+    "file/src/GlobaleFunktionen.js.html",
+    "src/GlobaleFunktionen.js",
+    "file"
+  ],
+  [
+    "src/globalefunktionen.js~testfunktionen#numbertostring",
+    "class/src/GlobaleFunktionen.js~TestFunktionen.html#instance-method-NumberToString",
+    "src/GlobaleFunktionen.js~TestFunktionen#NumberToString",
+    "method"
+  ],
+  [
+    "src/globalefunktionen.js~testfunktionen#numbertostring",
+    "class/src/GlobaleFunktionen.js~TestFunktionen.html#instance-method-NumberToString",
+    "src/GlobaleFunktionen.js~TestFunktionen#NumberToString",
+    "method"
+  ],
+  [
+    "src/topartikel.js",
+    "file/src/Topartikel.js.html",
+    "src/Topartikel.js",
+    "file"
+  ],
+  [
+    "src/topartikel.js~topartikel#notshownarticle",
+    "class/src/Topartikel.js~Topartikel.html#instance-method-notShownArticle",
+    "src/Topartikel.js~Topartikel#notShownArticle",
+    "method"
+  ],
+  [
+    "src/topartikel.js~topartikel#stringtonumberconverter",
+    "class/src/Topartikel.js~Topartikel.html#instance-method-stringToNumberConverter",
+    "src/Topartikel.js~Topartikel#stringToNumberConverter",
+    "method"
   ]
 ]

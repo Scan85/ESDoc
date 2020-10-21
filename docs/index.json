@@ -564,6 +564,302 @@
     "builtinExternal": true
   },
   {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/Einkaufskorb.js",
+    "content": "/**\r\n * This is the ShoppingCart class\r\n */\r\nexport default class ShoppingCart {\r\n\r\n    /**\r\n     * @param {number} a - total discount articles\r\n     * @param {number} b - total discount products\r\n     * @return {number} returns total discounts\r\n     */\r\n    totalDiscounts(a, b) {\r\n        return a + b;\r\n    }\r\n\r\n    /**\r\n     * @param {string} totalArticles - total count of all articles\r\n     * @return {number} converts string to number\r\n     */\r\n    stringToNumberConverter(totalArticles) {\r\n        return Number(totalArticles);\r\n    }\r\n}",
+    "static": true,
+    "longname": "F:/GitRepo/ESDoc/src/Einkaufskorb.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "ShoppingCart",
+    "memberof": "src/Einkaufskorb.js",
+    "static": true,
+    "longname": "src/Einkaufskorb.js~ShoppingCart",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/Einkaufskorb.js",
+    "importStyle": "ShoppingCart",
+    "description": "This is the ShoppingCart class",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "method",
+    "name": "totalDiscounts",
+    "memberof": "src/Einkaufskorb.js~ShoppingCart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Einkaufskorb.js~ShoppingCart#totalDiscounts",
+    "access": "public",
+    "description": "",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "a",
+        "description": "total discount articles"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "b",
+        "description": "total discount products"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "returns total discounts"
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "method",
+    "name": "stringToNumberConverter",
+    "memberof": "src/Einkaufskorb.js~ShoppingCart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Einkaufskorb.js~ShoppingCart#stringToNumberConverter",
+    "access": "public",
+    "description": "",
+    "lineNumber": 19,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "totalArticles",
+        "description": "total count of all articles"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "converts string to number"
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "src/GlobaleFunktionen.js",
+    "content": "/**\r\n * This is a block with global test functions\r\n */\r\nexport default class TestFunktionen {\r\n    /**\r\n     * Function to convert number to string\r\n     * @param {number} number \r\n     * @return {string} returns converted string  \r\n     */\r\n    NumberToString(number) {\r\n        return number.toString();\r\n    }\r\n\r\n    /**\r\n     * Function to convert string to number\r\n     * @param {string} numberString\r\n     * @return {number} returns converted number  \r\n     */\r\n    NumberToString(numberString) {\r\n        return parseFloat(numberString);\r\n    }\r\n}",
+    "static": true,
+    "longname": "F:/GitRepo/ESDoc/src/GlobaleFunktionen.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "class",
+    "name": "TestFunktionen",
+    "memberof": "src/GlobaleFunktionen.js",
+    "static": true,
+    "longname": "src/GlobaleFunktionen.js~TestFunktionen",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/GlobaleFunktionen.js",
+    "importStyle": "TestFunktionen",
+    "description": "This is a block with global test functions",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 54,
+    "kind": "method",
+    "name": "NumberToString",
+    "memberof": "src/GlobaleFunktionen.js~TestFunktionen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/GlobaleFunktionen.js~TestFunktionen#NumberToString",
+    "access": "public",
+    "description": "Function to convert number to string",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "number",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "returns converted string"
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "method",
+    "name": "NumberToString",
+    "memberof": "src/GlobaleFunktionen.js~TestFunktionen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/GlobaleFunktionen.js~TestFunktionen#NumberToString",
+    "access": "public",
+    "description": "Function to convert string to number",
+    "lineNumber": 19,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "numberString",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "returns converted number"
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "src/Topartikel.js",
+    "content": "/**\r\n * This is top article class\r\n */\r\nexport default class Topartikel {\r\n\r\n    /**\r\n     * @param {number} a - total count of all articles\r\n     * @param {number} b - total count of all posible articles\r\n     * @return {number} result of not shown articles\r\n     */\r\n    notShownArticle(a, b) {\r\n        return a - b;\r\n    }\r\n\r\n    /**\r\n     * @param {string} totalArticles - total count of all articles\r\n     * @return {number} converts string to number\r\n     */\r\n    stringToNumberConverter(totalArticles) {\r\n        return Number(totalArticles);\r\n    }\r\n}",
+    "static": true,
+    "longname": "F:/GitRepo/ESDoc/src/Topartikel.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "class",
+    "name": "Topartikel",
+    "memberof": "src/Topartikel.js",
+    "static": true,
+    "longname": "src/Topartikel.js~Topartikel",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/Topartikel.js",
+    "importStyle": "Topartikel",
+    "description": "This is top article class",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 58,
+    "kind": "method",
+    "name": "notShownArticle",
+    "memberof": "src/Topartikel.js~Topartikel",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Topartikel.js~Topartikel#notShownArticle",
+    "access": "public",
+    "description": "",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "a",
+        "description": "total count of all articles"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "b",
+        "description": "total count of all posible articles"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "result of not shown articles"
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "stringToNumberConverter",
+    "memberof": "src/Topartikel.js~Topartikel",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Topartikel.js~Topartikel#stringToNumberConverter",
+    "access": "public",
+    "description": "",
+    "lineNumber": 19,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "totalArticles",
+        "description": "total count of all articles"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "converts string to number"
+    }
+  },
+  {
     "kind": "index",
     "content": "# ESDoc\r\nESDoc Beispiel zu Codeblöcken\r\n",
     "longname": "F:\\GitRepo\\ESDoc\\README.md",
@@ -573,7 +869,7 @@
   },
   {
     "kind": "packageJSON",
-    "content": "{\r\n  \"devDependencies\": {\r\n    \"esdoc\": \"^1.1.0\",\r\n    \"esdoc-standard-plugin\": \"^1.0.0\"\r\n  }\r\n}\r\n",
+    "content": "{\r\n  \"devDependencies\": {\r\n    \"esdoc\": \"^1.1.0\",\r\n    \"esdoc-standard-plugin\": \"^1.0.0\"\r\n  },\r\n  \"dependencies\": {\r\n    \"esdoc-jsx-plugin\": \"^1.0.0\"\r\n  }\r\n}\r\n",
     "longname": "F:\\GitRepo\\ESDoc\\package.json",
     "name": "package.json",
     "static": true,
