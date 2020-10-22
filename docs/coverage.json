@@ -1,12 +1,17 @@
 {
-  "coverage": "100%",
-  "expectCount": 9,
-  "actualCount": 9,
+  "coverage": "57.89%",
+  "expectCount": 19,
+  "actualCount": 11,
   "files": {
-    "src/Einkaufskorb.js": {
-      "expectCount": 3,
-      "actualCount": 3,
-      "undocumentLines": []
+    "src/Article.js": {
+      "expectCount": 8,
+      "actualCount": 4,
+      "undocumentLines": [
+        14,
+        15,
+        16,
+        17
+      ]
     },
     "src/GlobaleFunktionen.js": {
       "expectCount": 3,
@@ -14,9 +19,14 @@
       "undocumentLines": []
     },
     "src/Topartikel.js": {
-      "expectCount": 3,
-      "actualCount": 3,
-      "undocumentLines": []
+      "expectCount": 8,
+      "actualCount": 4,
+      "undocumentLines": [
+        14,
+        15,
+        16,
+        17
+      ]
     }
   }
 }

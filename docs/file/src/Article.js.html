@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl">
-  <title data-ice="title">Home</title>
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/Article.js</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -36,23 +36,44 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="esdoc-starter-pack">ESDOC Starter Pack</h1><p>ESDoc Beispiel zu Codebl&#xF6;cken</p>
-<h2 id="code-liegt-im-src-und-generierte-dokumentation-liegt-im-docs-ordner">Code liegt im src und generierte Dokumentation liegt im docs Ordner</h2><p>Im Docs Ordner die Index Datei aufrufen und die Dokumentation einsehen</p>
-<h3 id="tech">Tech</h3><ul>
-<li>[esdoc]</li>
-<li>[esdoc-standard-plugin]</li>
-<li>[esdoc-jsx-plugin]</li>
-</ul>
-<h3 id="installation">Installation</h3><pre><code class="lang-sh"><code class="source-code prettyprint">$ git clone https://github.com/Scan85/ESDoc.git
+<div class="content" data-ice="content"><h1 data-ice="title">src/Article.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * This is the Article class which creates an article
+ */
+export default class Article {
 
-$ npm install</code>
-</code></pre>
-<h3 id="create-documentation">Create documentation</h3><ul>
-<li>Change to \ESDoc directory<pre><code class="lang-sh"><code class="source-code prettyprint">$ ./node_modules/.bin/esdoc -c esdoc.json</code>
-</code></pre>
-</li>
-</ul>
-</div>
+    /**
+     * Constructor for ShoppingCart class
+     * @param {string} article - article name 
+     * @param {int} amount - amount of selected articles (1-x)
+     * @param {number} price - price of article
+     * @param {int} discount - discount in %
+     */
+    constructor(article, amount, price, discount) {
+        this.article = article;
+        this.amount = amount;
+        this.price = price;
+        this.discount = discount;
+    }
+
+    /**
+     * @param {number} a - total discount articles
+     * @param {number} b - total discount products
+     * @return {number} returns total discounts
+     */
+    totalDiscounts(a, b) {
+        return a + b;
+    }
+
+    /**
+     * @param {string} totalArticles - total count of all articles
+     * @return {number} converts string to number
+     */
+    stringToNumberConverter(totalArticles) {
+        return Number(totalArticles);
+    }
+}</code></pre>
+
 </div>
 
 <footer class="footer">

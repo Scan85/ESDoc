@@ -1,5 +1,5 @@
 /**
- * This is a block with global test functions
+ * This is a block with global test functions which contains a list of functions that converting data types
  */
 export default class TestFunktionen {
     /**

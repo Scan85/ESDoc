@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 555,
+  "end": 617,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 555,
+    "end": 617,
     "loc": {
       "start": {
         "line": 1,
@@ -30,8 +30,8 @@
     "body": [
       {
         "type": "ExportDefaultDeclaration",
-        "start": 57,
-        "end": 555,
+        "start": 119,
+        "end": 617,
         "loc": {
           "start": {
             "line": 4,
@@ -44,8 +44,8 @@
         },
         "declaration": {
           "type": "ClassDeclaration",
-          "start": 72,
-          "end": 555,
+          "start": 134,
+          "end": 617,
           "loc": {
             "start": {
               "line": 4,
@@ -58,8 +58,8 @@
           },
           "id": {
             "type": "Identifier",
-            "start": 78,
-            "end": 92,
+            "start": 140,
+            "end": 154,
             "loc": {
               "start": {
                 "line": 4,
@@ -77,8 +77,8 @@
           "superClass": null,
           "body": {
             "type": "ClassBody",
-            "start": 93,
-            "end": 555,
+            "start": 155,
+            "end": 617,
             "loc": {
               "start": {
                 "line": 4,
@@ -92,8 +92,8 @@
             "body": [
               {
                 "type": "ClassMethod",
-                "start": 247,
-                "end": 313,
+                "start": 309,
+                "end": 375,
                 "loc": {
                   "start": {
                     "line": 10,
@@ -108,8 +108,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 247,
-                  "end": 261,
+                  "start": 309,
+                  "end": 323,
                   "loc": {
                     "start": {
                       "line": 10,
@@ -132,8 +132,8 @@
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 262,
-                    "end": 268,
+                    "start": 324,
+                    "end": 330,
                     "loc": {
                       "start": {
                         "line": 10,
@@ -150,8 +150,8 @@
                 ],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 270,
-                  "end": 313,
+                  "start": 332,
+                  "end": 375,
                   "loc": {
                     "start": {
                       "line": 10,
@@ -165,8 +165,8 @@
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 281,
-                      "end": 306,
+                      "start": 343,
+                      "end": 368,
                       "loc": {
                         "start": {
                           "line": 11,
@@ -179,8 +179,8 @@
                       },
                       "argument": {
                         "type": "CallExpression",
-                        "start": 288,
-                        "end": 305,
+                        "start": 350,
+                        "end": 367,
                         "loc": {
                           "start": {
                             "line": 11,
@@ -193,8 +193,8 @@
                         },
                         "callee": {
                           "type": "MemberExpression",
-                          "start": 288,
-                          "end": 303,
+                          "start": 350,
+                          "end": 365,
                           "loc": {
                             "start": {
                               "line": 11,
@@ -207,8 +207,8 @@
                           },
                           "object": {
                             "type": "Identifier",
-                            "start": 288,
-                            "end": 294,
+                            "start": 350,
+                            "end": 356,
                             "loc": {
                               "start": {
                                 "line": 11,
@@ -224,8 +224,8 @@
                           },
                           "property": {
                             "type": "Identifier",
-                            "start": 295,
-                            "end": 303,
+                            "start": 357,
+                            "end": 365,
                             "loc": {
                               "start": {
                                 "line": 11,
@@ -252,8 +252,8 @@
                   {
                     "type": "CommentBlock",
                     "value": "*\r\n     * Function to convert number to string\r\n     * @param {number} number \r\n     * @return {string} returns converted string  \r\n     ",
-                    "start": 100,
-                    "end": 241,
+                    "start": 162,
+                    "end": 303,
                     "loc": {
                       "start": {
                         "line": 5,
@@ -270,8 +270,8 @@
                   {
                     "type": "CommentBlock",
                     "value": "*\r\n     * Function to convert string to number\r\n     * @param {string} numberString\r\n     * @return {number} returns converted number  \r\n     ",
-                    "start": 321,
-                    "end": 467,
+                    "start": 383,
+                    "end": 529,
                     "loc": {
                       "start": {
                         "line": 14,
@@ -287,8 +287,8 @@
               },
               {
                 "type": "ClassMethod",
-                "start": 473,
-                "end": 552,
+                "start": 535,
+                "end": 614,
                 "loc": {
                   "start": {
                     "line": 19,
@@ -303,8 +303,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 473,
-                  "end": 487,
+                  "start": 535,
+                  "end": 549,
                   "loc": {
                     "start": {
                       "line": 19,
@@ -327,8 +327,8 @@
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 488,
-                    "end": 500,
+                    "start": 550,
+                    "end": 562,
                     "loc": {
                       "start": {
                         "line": 19,
@@ -345,8 +345,8 @@
                 ],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 502,
-                  "end": 552,
+                  "start": 564,
+                  "end": 614,
                   "loc": {
                     "start": {
                       "line": 19,
@@ -360,8 +360,8 @@
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 513,
-                      "end": 545,
+                      "start": 575,
+                      "end": 607,
                       "loc": {
                         "start": {
                           "line": 20,
@@ -374,8 +374,8 @@
                       },
                       "argument": {
                         "type": "CallExpression",
-                        "start": 520,
-                        "end": 544,
+                        "start": 582,
+                        "end": 606,
                         "loc": {
                           "start": {
                             "line": 20,
@@ -388,8 +388,8 @@
                         },
                         "callee": {
                           "type": "Identifier",
-                          "start": 520,
-                          "end": 530,
+                          "start": 582,
+                          "end": 592,
                           "loc": {
                             "start": {
                               "line": 20,
@@ -406,8 +406,8 @@
                         "arguments": [
                           {
                             "type": "Identifier",
-                            "start": 531,
-                            "end": 543,
+                            "start": 593,
+                            "end": 605,
                             "loc": {
                               "start": {
                                 "line": 20,
@@ -431,8 +431,8 @@
                   {
                     "type": "CommentBlock",
                     "value": "*\r\n     * Function to convert string to number\r\n     * @param {string} numberString\r\n     * @return {number} returns converted number  \r\n     ",
-                    "start": 321,
-                    "end": 467,
+                    "start": 383,
+                    "end": 529,
                     "loc": {
                       "start": {
                         "line": 14,
@@ -451,9 +451,9 @@
           "leadingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\r\n * This is a block with global test functions\r\n ",
+              "value": "*\r\n * This is a block with global test functions which contains a list of functions that converting data types\r\n ",
               "start": 0,
-              "end": 55,
+              "end": 117,
               "loc": {
                 "start": {
                   "line": 1,
@@ -471,9 +471,9 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * This is a block with global test functions\r\n ",
+            "value": "*\r\n * This is a block with global test functions which contains a list of functions that converting data types\r\n ",
             "start": 0,
-            "end": 55,
+            "end": 117,
             "loc": {
               "start": {
                 "line": 1,
@@ -493,9 +493,9 @@
   "comments": [
     {
       "type": "CommentBlock",
-      "value": "*\r\n * This is a block with global test functions\r\n ",
+      "value": "*\r\n * This is a block with global test functions which contains a list of functions that converting data types\r\n ",
       "start": 0,
-      "end": 55,
+      "end": 117,
       "loc": {
         "start": {
           "line": 1,
@@ -510,8 +510,8 @@
     {
       "type": "CommentBlock",
       "value": "*\r\n     * Function to convert number to string\r\n     * @param {number} number \r\n     * @return {string} returns converted string  \r\n     ",
-      "start": 100,
-      "end": 241,
+      "start": 162,
+      "end": 303,
       "loc": {
         "start": {
           "line": 5,
@@ -526,8 +526,8 @@
     {
       "type": "CommentBlock",
       "value": "*\r\n     * Function to convert string to number\r\n     * @param {string} numberString\r\n     * @return {number} returns converted number  \r\n     ",
-      "start": 321,
-      "end": 467,
+      "start": 383,
+      "end": 529,
       "loc": {
         "start": {
           "line": 14,
@@ -543,9 +543,9 @@
   "tokens": [
     {
       "type": "CommentBlock",
-      "value": "*\r\n * This is a block with global test functions\r\n ",
+      "value": "*\r\n * This is a block with global test functions which contains a list of functions that converting data types\r\n ",
       "start": 0,
-      "end": 55,
+      "end": 117,
       "loc": {
         "start": {
           "line": 1,
@@ -572,8 +572,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 57,
-      "end": 63,
+      "start": 119,
+      "end": 125,
       "loc": {
         "start": {
           "line": 4,
@@ -600,8 +600,8 @@
         "updateContext": null
       },
       "value": "default",
-      "start": 64,
-      "end": 71,
+      "start": 126,
+      "end": 133,
       "loc": {
         "start": {
           "line": 4,
@@ -628,8 +628,8 @@
         "updateContext": null
       },
       "value": "class",
-      "start": 72,
-      "end": 77,
+      "start": 134,
+      "end": 139,
       "loc": {
         "start": {
           "line": 4,
@@ -654,8 +654,8 @@
         "binop": null
       },
       "value": "TestFunktionen",
-      "start": 78,
-      "end": 92,
+      "start": 140,
+      "end": 154,
       "loc": {
         "start": {
           "line": 4,
@@ -679,8 +679,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 93,
-      "end": 94,
+      "start": 155,
+      "end": 156,
       "loc": {
         "start": {
           "line": 4,
@@ -695,8 +695,8 @@
     {
       "type": "CommentBlock",
       "value": "*\r\n     * Function to convert number to string\r\n     * @param {number} number \r\n     * @return {string} returns converted string  \r\n     ",
-      "start": 100,
-      "end": 241,
+      "start": 162,
+      "end": 303,
       "loc": {
         "start": {
           "line": 5,
@@ -721,8 +721,8 @@
         "binop": null
       },
       "value": "NumberToString",
-      "start": 247,
-      "end": 261,
+      "start": 309,
+      "end": 323,
       "loc": {
         "start": {
           "line": 10,
@@ -746,8 +746,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 261,
-      "end": 262,
+      "start": 323,
+      "end": 324,
       "loc": {
         "start": {
           "line": 10,
@@ -772,8 +772,8 @@
         "binop": null
       },
       "value": "number",
-      "start": 262,
-      "end": 268,
+      "start": 324,
+      "end": 330,
       "loc": {
         "start": {
           "line": 10,
@@ -797,8 +797,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 268,
-      "end": 269,
+      "start": 330,
+      "end": 331,
       "loc": {
         "start": {
           "line": 10,
@@ -822,8 +822,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 270,
-      "end": 271,
+      "start": 332,
+      "end": 333,
       "loc": {
         "start": {
           "line": 10,
@@ -850,8 +850,8 @@
         "updateContext": null
       },
       "value": "return",
-      "start": 281,
-      "end": 287,
+      "start": 343,
+      "end": 349,
       "loc": {
         "start": {
           "line": 11,
@@ -876,8 +876,8 @@
         "binop": null
       },
       "value": "number",
-      "start": 288,
-      "end": 294,
+      "start": 350,
+      "end": 356,
       "loc": {
         "start": {
           "line": 11,
@@ -902,8 +902,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 294,
-      "end": 295,
+      "start": 356,
+      "end": 357,
       "loc": {
         "start": {
           "line": 11,
@@ -928,8 +928,8 @@
         "binop": null
       },
       "value": "toString",
-      "start": 295,
-      "end": 303,
+      "start": 357,
+      "end": 365,
       "loc": {
         "start": {
           "line": 11,
@@ -953,8 +953,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 303,
-      "end": 304,
+      "start": 365,
+      "end": 366,
       "loc": {
         "start": {
           "line": 11,
@@ -978,8 +978,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 304,
-      "end": 305,
+      "start": 366,
+      "end": 367,
       "loc": {
         "start": {
           "line": 11,
@@ -1004,8 +1004,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 305,
-      "end": 306,
+      "start": 367,
+      "end": 368,
       "loc": {
         "start": {
           "line": 11,
@@ -1029,8 +1029,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 312,
-      "end": 313,
+      "start": 374,
+      "end": 375,
       "loc": {
         "start": {
           "line": 12,
@@ -1045,8 +1045,8 @@
     {
       "type": "CommentBlock",
       "value": "*\r\n     * Function to convert string to number\r\n     * @param {string} numberString\r\n     * @return {number} returns converted number  \r\n     ",
-      "start": 321,
-      "end": 467,
+      "start": 383,
+      "end": 529,
       "loc": {
         "start": {
           "line": 14,
@@ -1071,8 +1071,8 @@
         "binop": null
       },
       "value": "NumberToString",
-      "start": 473,
-      "end": 487,
+      "start": 535,
+      "end": 549,
       "loc": {
         "start": {
           "line": 19,
@@ -1096,8 +1096,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 487,
-      "end": 488,
+      "start": 549,
+      "end": 550,
       "loc": {
         "start": {
           "line": 19,
@@ -1122,8 +1122,8 @@
         "binop": null
       },
       "value": "numberString",
-      "start": 488,
-      "end": 500,
+      "start": 550,
+      "end": 562,
       "loc": {
         "start": {
           "line": 19,
@@ -1147,8 +1147,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 500,
-      "end": 501,
+      "start": 562,
+      "end": 563,
       "loc": {
         "start": {
           "line": 19,
@@ -1172,8 +1172,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 502,
-      "end": 503,
+      "start": 564,
+      "end": 565,
       "loc": {
         "start": {
           "line": 19,
@@ -1200,8 +1200,8 @@
         "updateContext": null
       },
       "value": "return",
-      "start": 513,
-      "end": 519,
+      "start": 575,
+      "end": 581,
       "loc": {
         "start": {
           "line": 20,
@@ -1226,8 +1226,8 @@
         "binop": null
       },
       "value": "parseFloat",
-      "start": 520,
-      "end": 530,
+      "start": 582,
+      "end": 592,
       "loc": {
         "start": {
           "line": 20,
@@ -1251,8 +1251,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 530,
-      "end": 531,
+      "start": 592,
+      "end": 593,
       "loc": {
         "start": {
           "line": 20,
@@ -1277,8 +1277,8 @@
         "binop": null
       },
       "value": "numberString",
-      "start": 531,
-      "end": 543,
+      "start": 593,
+      "end": 605,
       "loc": {
         "start": {
           "line": 20,
@@ -1302,8 +1302,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 543,
-      "end": 544,
+      "start": 605,
+      "end": 606,
       "loc": {
         "start": {
           "line": 20,
@@ -1328,8 +1328,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 544,
-      "end": 545,
+      "start": 606,
+      "end": 607,
       "loc": {
         "start": {
           "line": 20,
@@ -1353,8 +1353,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 551,
-      "end": 552,
+      "start": 613,
+      "end": 614,
       "loc": {
         "start": {
           "line": 21,
@@ -1378,8 +1378,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 554,
-      "end": 555,
+      "start": 616,
+      "end": 617,
       "loc": {
         "start": {
           "line": 22,
@@ -1404,8 +1404,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 555,
-      "end": 555,
+      "start": 617,
+      "end": 617,
       "loc": {
         "start": {
           "line": 22,

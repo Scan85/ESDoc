@@ -1,8 +1,8 @@
 window.esdocSearchIndex = [
   [
-    "./src/einkaufskorb.js~shoppingcart",
-    "class/src/Einkaufskorb.js~ShoppingCart.html",
-    "<span>ShoppingCart</span> <span class=\"search-result-import-path\">./src/Einkaufskorb.js</span>",
+    "./src/article.js~article",
+    "class/src/Article.js~Article.html",
+    "<span>Article</span> <span class=\"search-result-import-path\">./src/Article.js</span>",
     "class"
   ],
   [
@@ -300,21 +300,51 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "src/einkaufskorb.js",
-    "file/src/Einkaufskorb.js.html",
-    "src/Einkaufskorb.js",
+    "src/article.js",
+    "file/src/Article.js.html",
+    "src/Article.js",
     "file"
   ],
   [
-    "src/einkaufskorb.js~shoppingcart#stringtonumberconverter",
-    "class/src/Einkaufskorb.js~ShoppingCart.html#instance-method-stringToNumberConverter",
-    "src/Einkaufskorb.js~ShoppingCart#stringToNumberConverter",
+    "src/article.js~article#amount",
+    "class/src/Article.js~Article.html#instance-member-amount",
+    "src/Article.js~Article#amount",
+    "member"
+  ],
+  [
+    "src/article.js~article#article",
+    "class/src/Article.js~Article.html#instance-member-article",
+    "src/Article.js~Article#article",
+    "member"
+  ],
+  [
+    "src/article.js~article#constructor",
+    "class/src/Article.js~Article.html#instance-constructor-constructor",
+    "src/Article.js~Article#constructor",
     "method"
   ],
   [
-    "src/einkaufskorb.js~shoppingcart#totaldiscounts",
-    "class/src/Einkaufskorb.js~ShoppingCart.html#instance-method-totalDiscounts",
-    "src/Einkaufskorb.js~ShoppingCart#totalDiscounts",
+    "src/article.js~article#discount",
+    "class/src/Article.js~Article.html#instance-member-discount",
+    "src/Article.js~Article#discount",
+    "member"
+  ],
+  [
+    "src/article.js~article#price",
+    "class/src/Article.js~Article.html#instance-member-price",
+    "src/Article.js~Article#price",
+    "member"
+  ],
+  [
+    "src/article.js~article#stringtonumberconverter",
+    "class/src/Article.js~Article.html#instance-method-stringToNumberConverter",
+    "src/Article.js~Article#stringToNumberConverter",
+    "method"
+  ],
+  [
+    "src/article.js~article#totaldiscounts",
+    "class/src/Article.js~Article.html#instance-method-totalDiscounts",
+    "src/Article.js~Article#totalDiscounts",
     "method"
   ],
   [
@@ -342,10 +372,40 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/topartikel.js~topartikel#amount",
+    "class/src/Topartikel.js~Topartikel.html#instance-member-amount",
+    "src/Topartikel.js~Topartikel#amount",
+    "member"
+  ],
+  [
+    "src/topartikel.js~topartikel#article",
+    "class/src/Topartikel.js~Topartikel.html#instance-member-article",
+    "src/Topartikel.js~Topartikel#article",
+    "member"
+  ],
+  [
+    "src/topartikel.js~topartikel#constructor",
+    "class/src/Topartikel.js~Topartikel.html#instance-constructor-constructor",
+    "src/Topartikel.js~Topartikel#constructor",
+    "method"
+  ],
+  [
     "src/topartikel.js~topartikel#notshownarticle",
     "class/src/Topartikel.js~Topartikel.html#instance-method-notShownArticle",
     "src/Topartikel.js~Topartikel#notShownArticle",
     "method"
+  ],
+  [
+    "src/topartikel.js~topartikel#position",
+    "class/src/Topartikel.js~Topartikel.html#instance-member-position",
+    "src/Topartikel.js~Topartikel#position",
+    "member"
+  ],
+  [
+    "src/topartikel.js~topartikel#rating",
+    "class/src/Topartikel.js~Topartikel.html#instance-member-rating",
+    "src/Topartikel.js~Topartikel#rating",
+    "member"
   ],
   [
     "src/topartikel.js~topartikel#stringtonumberconverter",

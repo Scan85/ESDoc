@@ -566,10 +566,10 @@
   {
     "__docId__": 48,
     "kind": "file",
-    "name": "src/Einkaufskorb.js",
-    "content": "/**\r\n * This is the ShoppingCart class\r\n */\r\nexport default class ShoppingCart {\r\n\r\n    /**\r\n     * @param {number} a - total discount articles\r\n     * @param {number} b - total discount products\r\n     * @return {number} returns total discounts\r\n     */\r\n    totalDiscounts(a, b) {\r\n        return a + b;\r\n    }\r\n\r\n    /**\r\n     * @param {string} totalArticles - total count of all articles\r\n     * @return {number} converts string to number\r\n     */\r\n    stringToNumberConverter(totalArticles) {\r\n        return Number(totalArticles);\r\n    }\r\n}",
+    "name": "src/Article.js",
+    "content": "/**\r\n * This is the Article class which creates an article\r\n */\r\nexport default class Article {\r\n\r\n    /**\r\n     * Constructor for ShoppingCart class\r\n     * @param {string} article - article name \r\n     * @param {int} amount - amount of selected articles (1-x)\r\n     * @param {number} price - price of article\r\n     * @param {int} discount - discount in %\r\n     */\r\n    constructor(article, amount, price, discount) {\r\n        this.article = article;\r\n        this.amount = amount;\r\n        this.price = price;\r\n        this.discount = discount;\r\n    }\r\n\r\n    /**\r\n     * @param {number} a - total discount articles\r\n     * @param {number} b - total discount products\r\n     * @return {number} returns total discounts\r\n     */\r\n    totalDiscounts(a, b) {\r\n        return a + b;\r\n    }\r\n\r\n    /**\r\n     * @param {string} totalArticles - total count of all articles\r\n     * @return {number} converts string to number\r\n     */\r\n    stringToNumberConverter(totalArticles) {\r\n        return Number(totalArticles);\r\n    }\r\n}",
     "static": true,
-    "longname": "F:/GitRepo/ESDoc/src/Einkaufskorb.js",
+    "longname": "F:/GitRepo/ESDoc/src/Article.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -577,30 +577,153 @@
   {
     "__docId__": 49,
     "kind": "class",
-    "name": "ShoppingCart",
-    "memberof": "src/Einkaufskorb.js",
+    "name": "Article",
+    "memberof": "src/Article.js",
     "static": true,
-    "longname": "src/Einkaufskorb.js~ShoppingCart",
+    "longname": "src/Article.js~Article",
     "access": "public",
     "export": true,
-    "importPath": "./src/Einkaufskorb.js",
-    "importStyle": "ShoppingCart",
-    "description": "This is the ShoppingCart class",
+    "importPath": "./src/Article.js",
+    "importStyle": "Article",
+    "description": "This is the Article class which creates an article",
     "lineNumber": 4,
     "interface": false
   },
   {
     "__docId__": 50,
-    "kind": "method",
-    "name": "totalDiscounts",
-    "memberof": "src/Einkaufskorb.js~ShoppingCart",
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Article.js~Article",
     "generator": false,
     "async": false,
     "static": false,
-    "longname": "src/Einkaufskorb.js~ShoppingCart#totalDiscounts",
+    "longname": "src/Article.js~Article#constructor",
+    "access": "public",
+    "description": "Constructor for ShoppingCart class",
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "article",
+        "description": "article name"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "int"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "amount",
+        "description": "amount of selected articles (1-x)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "price",
+        "description": "price of article"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "int"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "discount",
+        "description": "discount in %"
+      }
+    ]
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "article",
+    "memberof": "src/Article.js~Article",
+    "static": false,
+    "longname": "src/Article.js~Article#article",
+    "access": "public",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "amount",
+    "memberof": "src/Article.js~Article",
+    "static": false,
+    "longname": "src/Article.js~Article#amount",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "member",
+    "name": "price",
+    "memberof": "src/Article.js~Article",
+    "static": false,
+    "longname": "src/Article.js~Article#price",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "member",
+    "name": "discount",
+    "memberof": "src/Article.js~Article",
+    "static": false,
+    "longname": "src/Article.js~Article#discount",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "method",
+    "name": "totalDiscounts",
+    "memberof": "src/Article.js~Article",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Article.js~Article#totalDiscounts",
     "access": "public",
     "description": "",
-    "lineNumber": 11,
+    "lineNumber": 25,
     "params": [
       {
         "nullable": null,
@@ -633,17 +756,17 @@
     }
   },
   {
-    "__docId__": 51,
+    "__docId__": 56,
     "kind": "method",
     "name": "stringToNumberConverter",
-    "memberof": "src/Einkaufskorb.js~ShoppingCart",
+    "memberof": "src/Article.js~Article",
     "generator": false,
     "async": false,
     "static": false,
-    "longname": "src/Einkaufskorb.js~ShoppingCart#stringToNumberConverter",
+    "longname": "src/Article.js~Article#stringToNumberConverter",
     "access": "public",
     "description": "",
-    "lineNumber": 19,
+    "lineNumber": 33,
     "params": [
       {
         "nullable": null,
@@ -666,10 +789,10 @@
     }
   },
   {
-    "__docId__": 52,
+    "__docId__": 57,
     "kind": "file",
     "name": "src/GlobaleFunktionen.js",
-    "content": "/**\r\n * This is a block with global test functions\r\n */\r\nexport default class TestFunktionen {\r\n    /**\r\n     * Function to convert number to string\r\n     * @param {number} number \r\n     * @return {string} returns converted string  \r\n     */\r\n    NumberToString(number) {\r\n        return number.toString();\r\n    }\r\n\r\n    /**\r\n     * Function to convert string to number\r\n     * @param {string} numberString\r\n     * @return {number} returns converted number  \r\n     */\r\n    NumberToString(numberString) {\r\n        return parseFloat(numberString);\r\n    }\r\n}",
+    "content": "/**\r\n * This is a block with global test functions which contains a list of functions that converting data types\r\n */\r\nexport default class TestFunktionen {\r\n    /**\r\n     * Function to convert number to string\r\n     * @param {number} number \r\n     * @return {string} returns converted string  \r\n     */\r\n    NumberToString(number) {\r\n        return number.toString();\r\n    }\r\n\r\n    /**\r\n     * Function to convert string to number\r\n     * @param {string} numberString\r\n     * @return {number} returns converted number  \r\n     */\r\n    NumberToString(numberString) {\r\n        return parseFloat(numberString);\r\n    }\r\n}",
     "static": true,
     "longname": "F:/GitRepo/ESDoc/src/GlobaleFunktionen.js",
     "access": "public",
@@ -677,7 +800,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 53,
+    "__docId__": 58,
     "kind": "class",
     "name": "TestFunktionen",
     "memberof": "src/GlobaleFunktionen.js",
@@ -687,12 +810,12 @@
     "export": true,
     "importPath": "./src/GlobaleFunktionen.js",
     "importStyle": "TestFunktionen",
-    "description": "This is a block with global test functions",
+    "description": "This is a block with global test functions which contains a list of functions that converting data types",
     "lineNumber": 4,
     "interface": false
   },
   {
-    "__docId__": 54,
+    "__docId__": 59,
     "kind": "method",
     "name": "NumberToString",
     "memberof": "src/GlobaleFunktionen.js~TestFunktionen",
@@ -725,7 +848,7 @@
     }
   },
   {
-    "__docId__": 55,
+    "__docId__": 60,
     "kind": "method",
     "name": "NumberToString",
     "memberof": "src/GlobaleFunktionen.js~TestFunktionen",
@@ -758,10 +881,10 @@
     }
   },
   {
-    "__docId__": 56,
+    "__docId__": 61,
     "kind": "file",
     "name": "src/Topartikel.js",
-    "content": "/**\r\n * This is top article class\r\n */\r\nexport default class Topartikel {\r\n\r\n    /**\r\n     * @param {number} a - total count of all articles\r\n     * @param {number} b - total count of all posible articles\r\n     * @return {number} result of not shown articles\r\n     */\r\n    notShownArticle(a, b) {\r\n        return a - b;\r\n    }\r\n\r\n    /**\r\n     * @param {string} totalArticles - total count of all articles\r\n     * @return {number} converts string to number\r\n     */\r\n    stringToNumberConverter(totalArticles) {\r\n        return Number(totalArticles);\r\n    }\r\n}",
+    "content": "/**\r\n * This is top article class that contains methods and functions for choosen article list\r\n */\r\nexport default class Topartikel {\r\n\r\n    /**\r\n     * Constructor for Topartikel class\r\n     * @param {string} article - article name\r\n     * @param {int} amount - amount of available articles\r\n     * @param {int} position - position in top list\r\n     * @param {int} rating - rating of article\r\n     */\r\n    constructor(article, amount, position, rating) {\r\n        this.article = article;\r\n        this.amount = amount;\r\n        this.position = position;\r\n        this.rating = rating;\r\n    }\r\n\r\n\r\n    /**\r\n     * @param {number} a - total count of all articles\r\n     * @param {number} b - total count of all posible articles\r\n     * @return {number} result of not shown articles\r\n     */\r\n    notShownArticle(a, b) {\r\n        return a - b;\r\n    }\r\n\r\n    /**\r\n     * @param {string} totalArticles - total count of all articles\r\n     * @return {number} converts string to number\r\n     */\r\n    stringToNumberConverter(totalArticles) {\r\n        return Number(totalArticles);\r\n    }\r\n}",
     "static": true,
     "longname": "F:/GitRepo/ESDoc/src/Topartikel.js",
     "access": "public",
@@ -769,7 +892,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 57,
+    "__docId__": 62,
     "kind": "class",
     "name": "Topartikel",
     "memberof": "src/Topartikel.js",
@@ -779,12 +902,135 @@
     "export": true,
     "importPath": "./src/Topartikel.js",
     "importStyle": "Topartikel",
-    "description": "This is top article class",
+    "description": "This is top article class that contains methods and functions for choosen article list",
     "lineNumber": 4,
     "interface": false
   },
   {
-    "__docId__": 58,
+    "__docId__": 63,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Topartikel.js~Topartikel",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Topartikel.js~Topartikel#constructor",
+    "access": "public",
+    "description": "Constructor for Topartikel class",
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "article",
+        "description": "article name"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "int"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "amount",
+        "description": "amount of available articles"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "int"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "position",
+        "description": "position in top list"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "int"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "rating",
+        "description": "rating of article"
+      }
+    ]
+  },
+  {
+    "__docId__": 64,
+    "kind": "member",
+    "name": "article",
+    "memberof": "src/Topartikel.js~Topartikel",
+    "static": false,
+    "longname": "src/Topartikel.js~Topartikel#article",
+    "access": "public",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "member",
+    "name": "amount",
+    "memberof": "src/Topartikel.js~Topartikel",
+    "static": false,
+    "longname": "src/Topartikel.js~Topartikel#amount",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "member",
+    "name": "position",
+    "memberof": "src/Topartikel.js~Topartikel",
+    "static": false,
+    "longname": "src/Topartikel.js~Topartikel#position",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "member",
+    "name": "rating",
+    "memberof": "src/Topartikel.js~Topartikel",
+    "static": false,
+    "longname": "src/Topartikel.js~Topartikel#rating",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
     "kind": "method",
     "name": "notShownArticle",
     "memberof": "src/Topartikel.js~Topartikel",
@@ -794,7 +1040,7 @@
     "longname": "src/Topartikel.js~Topartikel#notShownArticle",
     "access": "public",
     "description": "",
-    "lineNumber": 11,
+    "lineNumber": 26,
     "params": [
       {
         "nullable": null,
@@ -827,7 +1073,7 @@
     }
   },
   {
-    "__docId__": 59,
+    "__docId__": 69,
     "kind": "method",
     "name": "stringToNumberConverter",
     "memberof": "src/Topartikel.js~Topartikel",
@@ -837,7 +1083,7 @@
     "longname": "src/Topartikel.js~Topartikel#stringToNumberConverter",
     "access": "public",
     "description": "",
-    "lineNumber": 19,
+    "lineNumber": 34,
     "params": [
       {
         "nullable": null,
@@ -861,7 +1107,7 @@
   },
   {
     "kind": "index",
-    "content": "# ESDoc\r\nESDoc Beispiel zu Codeblöcken\r\n",
+    "content": "# ESDOC Starter Pack\r\nESDoc Beispiel zu Codeblöcken\r\n\r\n## Code liegt im src und generierte Dokumentation liegt im docs Ordner\r\nIm Docs Ordner die Index Datei aufrufen und die Dokumentation einsehen\r\n\r\n### Tech\r\n\r\n* [esdoc]\r\n* [esdoc-standard-plugin]\r\n* [esdoc-jsx-plugin]\r\n\r\n### Installation\r\n\r\n```sh\r\n$ git clone https://github.com/Scan85/ESDoc.git\r\n\r\n$ npm install\r\n```\r\n\r\n### Create documentation\r\n* Change to \\ESDoc directory\r\n```sh\r\n$ ./node_modules/.bin/esdoc -c esdoc.json\r\n```",
     "longname": "F:\\GitRepo\\ESDoc\\README.md",
     "name": "./README.md",
     "static": true,
