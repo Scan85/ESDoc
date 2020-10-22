@@ -23,3 +23,7 @@ $ npm install
 ```sh
 $ ./node_modules/.bin/esdoc -c esdoc.json
 ```
+
+### Open documentation
+* Change to \ESDoc\docs directory
+* open index.html
